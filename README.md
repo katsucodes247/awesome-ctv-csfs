@@ -35,7 +35,6 @@ A collection of development and experimentation tools for CTV+CSFS.
 | Minsc | [Site](https://minsc-lang.org),<br>[v0.3](https://minsc-lang.org/v0.3),<br> | High-level scripting language for Bitcoin contracts with CTV support | Production | ✓ | | Policy development, script compilation, address generation, contract testing |
 | Sapio Miniscript | [Docs](https://docs.rs/sapio-miniscript),<br>[Crate](https://crates.io/crates/sapio-miniscript),<br> | Production-ready Rust library for CTV+CSFS script development with Miniscript | Production | ✓ | ✓ | Production script development, protocol implementation, transaction analysis, PSBT integration |
 | Sapio | [Repo](https://github.com/sapio-lang/sapio),<br> | Framework for creating composable multi-transaction Bitcoin Smart Contracts using CTV | Production | ✓ | | Smart contract development, CTV emulation, plugin integration |
-| CTV Hash Generator | [Gist](https://gist.github.com/supertestnet/ad0ce4f92d1eecfc607b0b46afed7228) | JavaScript tool for generating CTV hashes using transaction data. | Prototype | ✓ | | CTV hash generation, transaction analysis. Passes all CTV test vectors.|
 
 ## Learning Resources
 
@@ -48,6 +47,7 @@ Educational materials about CTV+CSFS.
 | Templates, Eltoo, and Covenants | Jeremy Rubin | [Article](https://rubin.io/blog/2021/07/02/covenants/),<br> | Comprehensive analysis of CTV, CSFS, CAT, and APO upgrades, including safety considerations, design tradeoffs, and implementation recommendations |
 | CSFS Re-Keying and Lightning Symmetry | Jeremy Rubin & Rearden | [Article](https://rubin.io/bitcoin/2024/12/02/csfs-ctv-rekey-symmetry/),<br> | Advanced technical exploration of CSFS re-keying techniques, key laddering, and applications to Lightning Network symmetry without extra signing round-trips |
 | Credit Ecash + CTV | Ursus Camp | [Article](https://ursus.camp/bitcoin/2024/02/02/credit-ecash-and-check-template-verify.html),<br> | Exploration of combining CTV with non-custodial ecash for improved Lightning Network liquidity and privacy |
+| Newbie Guide to OP_CTV | Katsu | [Article](https://bitcoindocs.org/notes/newbie-guide-to-check-template-verify-op-ctv),<br> | Learn the basics of CTV by building a locking address using CTV and executing a spend transaction that unlocks those funds |
 
 ## Community Discussions
 
